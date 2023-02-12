@@ -1,4 +1,4 @@
-package com.zx.medium.LRU;
+package com.zx.medium.LRU146;
 
 import java.util.LinkedHashMap;
 
