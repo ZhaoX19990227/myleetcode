@@ -29,9 +29,9 @@ class Solution {
      * @return
      */
     public static int singleNumber(int[] nums) {
-        int eor=0;
-        for (int i=0;i<nums.length;i++){
-            eor=eor^nums[i];
+        int eor = 0;
+        for (int i = 0;i < nums.length;i++){
+            eor = eor^nums[i];
         }
         return eor;
     }
