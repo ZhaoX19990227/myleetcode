@@ -21,7 +21,7 @@ package com.zx.easy.有效的完全平方数367;
  * 解释：返回 false ，因为 3.742 * 3.742 = 14 但 3.742 不是一个整数。
  */
 class Solution {
-    public boolean isPerfectSquare(int num) {
+    public static boolean isPerfectSquare(int num) {
         int low = 1;
         int high = num;
         while (low <= high) {
@@ -41,5 +41,9 @@ class Solution {
         }
 
         return false;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPerfectSquare(16));
     }
 }
